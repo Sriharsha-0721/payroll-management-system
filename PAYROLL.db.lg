@@ -1,0 +1,43 @@
+[2025/09/16@10:42:40.966+2300] P-22236      T-8628  I OEMAGENT1: (452)   Login by SYSTEM on batch. 
+[2025/09/16@10:42:40.967+2300] P-22236      T-8628  I OEMAGENT1: (7129)  Usr 1 set name to DB_Agent. 
+[2025/09/16@10:42:40.979+2300] P-22236      T-8628  I FMAGENT 1: (14262) Successfully connected to AdminServer on port 8855 using TCP/IP IPv4 address 10.10.16.82. 
+[2025/09/16@10:42:40.981+2300] P-22236      T-8628  I FMAGENT 1: (8846)  Registered with Admin Server. 
+[2025/09/16@21:22:18.937+2300] P-22236      T-8628  I FMAGENT 1: (8848)  Connection to Admin Server lost. 
+[2025/09/16@21:22:18.941+2300] P-22236      T-8628  I FMAGENT 1: (14262) Successfully connected to AdminServer on port 8855 using TCP/IP IPv4 address 127.0.0.1. 
+[2025/09/16@21:22:19.218+2300] P-22236      T-8628  I FMAGENT 1: (8846)  Registered with Admin Server. 
+[2025/09/17@09:48:23.929+2300] P-5788       T-23312 I OEMAGENT3: (452)   Login by SYSTEM on batch. 
+[2025/09/17@09:48:23.930+2300] P-5788       T-23312 I OEMAGENT3: (7129)  Usr 3 set name to DB_Agent. 
+[2025/09/17@09:48:23.943+2300] P-5788       T-23312 I FMAGENT 3: (14262) Successfully connected to AdminServer on port 8855 using TCP/IP IPv4 address 10.65.60.245. 
+[2025/09/17@09:48:23.945+2300] P-5788       T-23312 I FMAGENT 3: (8846)  Registered with Admin Server. 
+[2025/09/17@13:00:42.470+2300] P-5788       T-23312 I FMAGENT 3: (8848)  Connection to Admin Server lost. 
+[2025/09/17@13:00:42.471+2300] P-5788       T-23312 I FMAGENT 3: (14262) Successfully connected to AdminServer on port 8855 using TCP/IP IPv4 address 127.0.0.1. 
+[2025/09/17@13:00:47.709+2300] P-21352      T-16264 I OEMAGENT5: (452)   Login by SYSTEM on batch. 
+[2025/09/17@13:00:47.710+2300] P-21352      T-16264 I OEMAGENT5: (7129)  Usr 5 set name to DB_Agent. 
+[2025/09/17@13:00:47.710+2300] P-21352      T-16264 I FMAGENT 5: (10377) A db agent is already running on this database. 
+[2025/09/17@13:00:47.710+2300] P-21352      T-16264 I OEMAGENT5: (453)   Logout by DB_Agent on batch. 
+[2025/09/17@13:00:57.902+2300] P-5788       T-23312 I FMAGENT 3: (8845)  Error registering with Admin Server. 
+[2025/09/17@13:00:57.903+2300] P-5788       T-23312 I FMAGENT 3: (14262) Successfully connected to AdminServer on port 8855 using TCP/IP IPv4 address 127.0.0.1. 
+[2025/09/17@13:00:57.905+2300] P-5788       T-23312 I FMAGENT 3: (8846)  Registered with Admin Server. 
+[2025/09/19@11:36:25.939+2300] P-4244       T-7260  I OEMAGENT1: (452)   Login by SYSTEM on batch. 
+[2025/09/19@11:36:25.940+2300] P-4244       T-7260  I OEMAGENT1: (7129)  Usr 1 set name to DB_Agent. 
+[2025/09/19@11:36:25.952+2300] P-4244       T-7260  I FMAGENT 1: (14262) Successfully connected to AdminServer on port 8855 using TCP/IP IPv4 address 192.168.29.245. 
+[2025/09/19@11:36:25.954+2300] P-4244       T-7260  I FMAGENT 1: (8846)  Registered with Admin Server. 
+[2025/09/23@09:44:09.126+2300] P-19688      T-2156  I OEMAGENT2: (452)   Login by SYSTEM on batch. 
+[2025/09/23@09:44:09.126+2300] P-19688      T-2156  I OEMAGENT2: (7129)  Usr 2 set name to DB_Agent. 
+[2025/09/23@09:44:09.146+2300] P-19688      T-2156  I FMAGENT 2: (14262) Successfully connected to AdminServer on port 8855 using TCP/IP IPv4 address 10.10.16.82. 
+[2025/09/23@09:44:09.150+2300] P-19688      T-2156  I FMAGENT 2: (8846)  Registered with Admin Server. 
+[2025/09/23@16:27:20.748+2300] P-19688      T-2156  I FMAGENT 2: (8848)  Connection to Admin Server lost. 
+[2025/09/23@16:27:20.751+2300] P-19688      T-2156  I FMAGENT 2: (14262) Successfully connected to AdminServer on port 8855 using TCP/IP IPv4 address 127.0.0.1. 
+[2025/09/23@16:27:22.071+2300] P-19688      T-2156  I FMAGENT 2: (8846)  Registered with Admin Server. 
+[2025/09/24@10:12:23.892+2300] P-19688      T-2156  I OEMAGENT2: (453)   Logout by DB_Agent on batch. 
+[2025/09/24@10:12:52.386+2300] P-25728      T-19160 I OEMAGENT1: (452)   Login by SYSTEM on batch. 
+[2025/09/24@10:12:52.387+2300] P-25728      T-19160 I OEMAGENT1: (7129)  Usr 1 set name to DB_Agent. 
+[2025/09/24@10:12:52.400+2300] P-25728      T-19160 I FMAGENT 1: (14262) Successfully connected to AdminServer on port 8855 using TCP/IP IPv4 address 10.10.16.82. 
+[2025/09/24@10:12:52.401+2300] P-25728      T-19160 I FMAGENT 1: (8846)  Registered with Admin Server. 
+[2025/09/24@17:21:40.893+2300] P-25728      T-19160 I FMAGENT 1: (8848)  Connection to Admin Server lost. 
+[2025/09/24@17:21:40.905+2300] P-25728      T-19160 I FMAGENT 1: (14262) Successfully connected to AdminServer on port 8855 using TCP/IP IPv4 address 127.0.0.1. 
+[2025/09/24@17:21:41.104+2300] P-25728      T-19160 I FMAGENT 1: (8846)  Registered with Admin Server. 
+[2025/09/25@11:48:13.222+2300] P-14292      T-22352 I OEMAGENT1: (452)   Login by SYSTEM on batch. 
+[2025/09/25@11:48:13.223+2300] P-14292      T-22352 I OEMAGENT1: (7129)  Usr 1 set name to DB_Agent. 
+[2025/09/25@11:48:13.236+2300] P-14292      T-22352 I FMAGENT 1: (14262) Successfully connected to AdminServer on port 8855 using TCP/IP IPv4 address 10.10.16.82. 
+[2025/09/25@11:48:13.238+2300] P-14292      T-22352 I FMAGENT 1: (8846)  Registered with Admin Server. 

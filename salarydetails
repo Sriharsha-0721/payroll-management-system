@@ -1,0 +1,205 @@
+ADD TABLE "EmployeeSalarysDetails"
+  AREA "Schema Area"
+  DUMP-NAME "employeesalarysdetails"
+
+ADD FIELD "EmpId" OF "EmployeeSalarysDetails" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 2
+  MAX-WIDTH 4
+  ORDER 10
+
+ADD FIELD "BasicSalary" OF "EmployeeSalarysDetails" AS decimal 
+  FORMAT "->>,>>9.99"
+  INITIAL "0"
+  POSITION 7
+  MAX-WIDTH 17
+  DECIMALS 2
+  ORDER 60
+
+ADD FIELD "HRA" OF "EmployeeSalarysDetails" AS decimal 
+  FORMAT "->>,>>9.99"
+  INITIAL "0"
+  POSITION 8
+  MAX-WIDTH 17
+  DECIMALS 2
+  ORDER 70
+
+ADD FIELD "SpecialAllowance" OF "EmployeeSalarysDetails" AS decimal 
+  FORMAT "->>,>>9.99"
+  INITIAL "0"
+  POSITION 9
+  MAX-WIDTH 17
+  DECIMALS 2
+  ORDER 80
+
+ADD FIELD "ProvidentFund" OF "EmployeeSalarysDetails" AS decimal 
+  FORMAT "->>,>>9.99"
+  INITIAL "0"
+  POSITION 10
+  MAX-WIDTH 17
+  DECIMALS 2
+  ORDER 90
+
+ADD FIELD "TotalEarings" OF "EmployeeSalarysDetails" AS decimal 
+  FORMAT "->>,>>9.99"
+  INITIAL "0"
+  POSITION 11
+  MAX-WIDTH 17
+  DECIMALS 2
+  ORDER 100
+
+ADD FIELD "PFContribution" OF "EmployeeSalarysDetails" AS decimal 
+  FORMAT "->>,>>9.99"
+  INITIAL "0"
+  POSITION 12
+  MAX-WIDTH 17
+  DECIMALS 2
+  ORDER 110
+
+ADD FIELD "ProfessionalTax" OF "EmployeeSalarysDetails" AS decimal 
+  FORMAT "->>,>>9.99"
+  INITIAL "0"
+  POSITION 13
+  MAX-WIDTH 17
+  DECIMALS 2
+  ORDER 120
+
+ADD FIELD "TotalDeducation" OF "EmployeeSalarysDetails" AS decimal 
+  FORMAT "->>,>>9.99"
+  INITIAL "0"
+  POSITION 14
+  MAX-WIDTH 17
+  DECIMALS 2
+  ORDER 130
+
+ADD FIELD "ITPAN" OF "EmployeeSalarysDetails" AS character 
+  FORMAT "x(20)"
+  INITIAL ""
+  POSITION 15
+  MAX-WIDTH 40
+  ORDER 140
+
+ADD FIELD "NetSalaryPaid" OF "EmployeeSalarysDetails" AS decimal 
+  FORMAT "->>,>>9.99"
+  INITIAL "0"
+  POSITION 16
+  MAX-WIDTH 17
+  DECIMALS 2
+  ORDER 150
+
+ADD FIELD "EemployeBankNum" OF "EmployeeSalarysDetails" AS character 
+  FORMAT "x(30)"
+  INITIAL ""
+  POSITION 17
+  MAX-WIDTH 60
+  ORDER 160
+
+ADD FIELD "EmployeeUANNum" OF "EmployeeSalarysDetails" AS character 
+  FORMAT "x(25)"
+  INITIAL ""
+  POSITION 18
+  MAX-WIDTH 50
+  ORDER 170
+
+ADD FIELD "EmployeeIFCCode" OF "EmployeeSalarysDetails" AS character 
+  FORMAT "x(20)"
+  INITIAL ""
+  POSITION 19
+  MAX-WIDTH 40
+  ORDER 180
+
+ADD FIELD "COMP-OFF-ENCASHMENT" OF "EmployeeSalarysDetails" AS decimal 
+  FORMAT "->>,>>9.99"
+  INITIAL "0"
+  POSITION 20
+  MAX-WIDTH 17
+  DECIMALS 2
+  ORDER 190
+
+ADD FIELD "SalaryMonth" OF "EmployeeSalarysDetails" AS character 
+  FORMAT "x(20)"
+  INITIAL ""
+  POSITION 21
+  MAX-WIDTH 40
+  ORDER 200
+
+ADD INDEX "EmpId" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  PRIMARY
+  INDEX-FIELD "EmpId" ASCENDING 
+
+ADD INDEX "BasicSalary" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INACTIVE
+  INDEX-FIELD "BasicSalary" ASCENDING 
+
+ADD INDEX "COMP-OFF-ENCASHMENT" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INACTIVE
+  INDEX-FIELD "COMP-OFF-ENCASHMENT" ASCENDING 
+
+ADD INDEX "EmployeeBankNum" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INACTIVE
+  INDEX-FIELD "EemployeBankNum" ASCENDING 
+
+ADD INDEX "EmployeeIFCCode" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INACTIVE
+  INDEX-FIELD "EmployeeIFCCode" ASCENDING 
+
+ADD INDEX "EmployeeUANNum" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INDEX-FIELD "EmployeeUANNum" ASCENDING 
+
+ADD INDEX "HRA" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INDEX-FIELD "HRA" ASCENDING 
+
+ADD INDEX "ITPAN" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INACTIVE
+  INDEX-FIELD "ITPAN" ASCENDING 
+
+ADD INDEX "NetSalaryPaid" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INACTIVE
+  INDEX-FIELD "NetSalaryPaid" ASCENDING 
+
+ADD INDEX "PFContribution" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INDEX-FIELD "PFContribution" ASCENDING 
+
+ADD INDEX "ProfessionalTax" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INACTIVE
+  INDEX-FIELD "ProfessionalTax" ASCENDING 
+
+ADD INDEX "Providentfund" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INDEX-FIELD "ProvidentFund" ASCENDING 
+
+ADD INDEX "SalaryMonth" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INACTIVE
+  INDEX-FIELD "SalaryMonth" ASCENDING 
+
+ADD INDEX "SpecialAllowance" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INDEX-FIELD "SpecialAllowance" ASCENDING 
+
+ADD INDEX "TotalDeducation" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INACTIVE
+  INDEX-FIELD "TotalDeducation" ASCENDING 
+
+ADD INDEX "TotalEarings" ON "EmployeeSalarysDetails" 
+  AREA "Schema Area"
+  INDEX-FIELD "TotalEarings" ASCENDING 
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000004662
